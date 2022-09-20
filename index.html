@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <div class="currency">
+    <div class="logo">
+        <img src="/rabitebank.svg" alt="">
+    </div>
+    <div class="cur">
+        <div class="amount">
+            <span id="valu">Amount</span>
+            <input onfocus="Focus()" onblur="BlurEx()" id="valyuta" type="text">
+        </div>
+        <div class="duration">
+            <span  id="dur">Duration</span>
+            <input onfocus="Focus1()" onblur="BulurCopu()" id="Muddet" type="text">
+        </div>
+        <div class="per">
+            <span id="per">Percent</span>
+            <input onfocus="Focus2()" onblur="BulurEli()" id="faiz" type="text">
+        </div>
+    
+        <button onclick="calculate()">Calculate</button>
+        <h4>Monthly fee : <span id="cavab"></span></h4>
+    </div>
+</div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

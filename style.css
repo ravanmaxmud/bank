@@ -1,0 +1,60 @@
+*{
+
+    transition: .5s;
+}
+.currency{
+    background-color: #F3F4F5;
+    padding:2rem 0rem;
+}
+.cur{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10%;
+    position: relative;  
+}
+.currency #valu{
+    position: absolute;
+    top: 18px;
+    left: -18px;
+}
+.currency #dur{
+    position: absolute;
+    top: 71px;
+    left: -18px;
+}
+.currency #per{
+    position: absolute;
+    top: 127px;
+    left: -18px;
+}
+.currency input{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+    padding: 3px 39px;
+}
+.currency button{
+    border: 1px solid #76A64D;
+    background-color: #76A64D;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 29px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.logo{
+    width: 20%;
+}
+
